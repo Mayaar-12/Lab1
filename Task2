@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+double Bs,Ts,Cr,Pay;
+cout<<"Enter Base Salary: ";
+cin>>Bs;
+cout<<"Enter Total sales: ";
+cin>>Ts;
+cout<<"Enter Commission rate: ";
+cin>>Cr;
+Pay=Bs+(Ts*Cr);
+cout<<"The Sale is: "<<Pay;
+
+return 0;
+}
