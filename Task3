@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+    double width,length,areaInFeet,areaInInch,tiles;
+    cout<<"Enter the width and length: "<<endl;
+    cin>>width>>length;
+    areaInFeet=width*length;
+    cout<<"Area in Feet equals: "<<areaInFeet<<endl;
+    areaInInch=areaInFeet*144;
+    cout<<"Area in Inch equals: "<<areaInInch;
+    tiles=areaInInch/36;
+    cout<<"Tiles are: "<<tiles<<endl;
+    return 0;
+}
